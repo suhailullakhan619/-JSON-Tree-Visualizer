@@ -213,4 +213,7 @@ input:checked + .slider:before {
     display: flex;
     flex-direction: column;
   }
+  .left-panel{
+    width: 100%;
+  }
 }
