@@ -15,7 +15,7 @@ export default function JsonInput({ jsonText, setJsonText, onVisualize, error,da
       {error && <p className="error-text">{error}</p>}
       <button onClick={onVisualize} className="generate-btn">Generate Tree</button>
       
-      <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',padding:10,gap:'30px'}}>
+      <div style={{display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'flex-start',padding:10,gap:'30px'}}>
       <div style={{display:'flex',flexDirection:'row',gap:'20px'}}><span style={{width:'80px',height:'20px',background:"#e0e7ff",border:"2px solid #6366f1",borderRadius:'6px'}}></span> is for Object</div>
       <div style={{display:'flex',flexDirection:'row',gap:'20px'}}><span style={{width:'80px',height:'20px',background:"#dcfce7",border:"2px solid #16a34a",borderRadius:'6px'}}></span> is for Array</div>
       <div style={{display:'flex',flexDirection:'row',gap:'20px'}}><span style={{width:'80px',height:'20px',background:"#fef3c7",border:"2px solid #f59e0b",borderRadius:'6px'}}></span> is for Array values</div>
